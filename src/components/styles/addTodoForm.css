@@ -1,0 +1,27 @@
+.inputForm{
+    margin-left: 301px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.message,.calendar,.submit{
+    height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:1px solid blue;
+    font-size: 13px;
+    color:black;
+    background-color: rgba(240, 240, 240, 0.993);
+}
+input[type='text'].message::-webkit-input-placeholder{
+    color: black;
+}
+.message{
+    text-align: left;
+}
+.calendar{
+    margin-left: 100px;
+}
+
+.submit{
+    width:70px;
+    margin-left: 20px;
+}

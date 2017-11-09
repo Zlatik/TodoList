@@ -1,0 +1,10 @@
+td{
+    vertical-align: top;
+    text-align: center;
+    width:calc(700px/4);
+    height:auto;
+}
+td:first-child{
+    text-align: left;
+}
+
